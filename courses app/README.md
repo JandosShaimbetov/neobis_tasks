@@ -23,7 +23,7 @@ pipenv shell
 
 ## Link to Apiary
 
-will be added later
+[will be added later](https://coursesappapi1.docs.apiary.io/#)
 
 ## Running the tests
 
