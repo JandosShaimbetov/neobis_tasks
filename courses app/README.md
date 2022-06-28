@@ -27,7 +27,7 @@ https://coursesappapi1.docs.apiary.io/#
 
 ## Running the tests
 
-will be added later
+tests passed successfully
 
 ## Deployment
 
