@@ -44,4 +44,4 @@ class CourseModelTest(TestCase):
         self.assertEqual(str(Course._meta.verbose_name_plural), 'Courses')
 
 # here is CategoryModelTest, ContactsModelTest and BranchModelTest classes
-# believe me
+# believe me!
