@@ -28,14 +28,14 @@ class Course(models.Model):
 class Branch(models.Model):
     latitude = models.CharField(max_length = 255)
     longitude = models.CharField(max_length = 1020)
-    adress = models.CharField(max_length = 122)
+    address = models.CharField(max_length = 122)
     course = models.ForeignKey(Course, related_name = 'Branches', null = True, on_delete = models.CASCADE)
 
     class Meta:
         verbose_name_plural = 'Branches'
 
     def __str__(self):
-        return self.adress
+        return self.address
 
 
 
